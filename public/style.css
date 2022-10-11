@@ -1,0 +1,248 @@
+*{
+    overflow-x: hidden;
+}
+body{
+    outline: 20px solid #cfc7b0;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width: 768px) {
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+  
+.flex-container > div {
+    flex-grow: 1;
+    margin: 50px;
+  }
+header{
+    display: flex;
+    font-size: 27px;
+}
+.flex-container .head{
+    max-width: 100%;
+}
+header .squar{
+    width: 140px;
+    max-height: 150px;
+    border: 10px solid #ef433f;
+    border-left: 40px solid #ef433f;
+}
+
+header .name h1{
+    margin-bottom: 0;
+    margin-top: 50px;
+    margin-left: 5px;
+}
+header .name h3{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+@media (max-width: 768px) {
+    header .squar{
+        width: 70px;
+        max-height: 80px;
+        border: 5px solid #ef433f;
+        border-left: 20px solid #ef433f;
+    }
+    header .name h1{
+        font-size: 20px;
+    }
+    header .name h3{
+        font-size: 15px;
+    }
+}
+.flex-container .PData{
+    margin-top: 85px;
+}
+.PData h3{
+    background: #dcdcdc;
+}
+.PData .info{
+    display: flex;
+}
+.PData .info h4{
+    margin: 0;
+    margin-right: 50px;
+}
+@media (max-width: 768px) {
+    .PData .info h4{
+        margin: 0;
+        margin-right: 20px;
+        font-size: 12px;
+    }
+}
+.about h3{
+    background: #dcdcdc;
+}
+.flex-container .about{
+    max-width: 50%;
+}
+.fDucation{
+    margin-right: 10px;
+}
+.fDucation img{
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    margin-top: 30px;
+}
+.fDucation h3{
+    background: #dcdcdc;
+}
+.fDucation .info{
+    display: flex;
+    margin-right: 10px;
+}
+.fDucation .info h4{
+    margin: 0;
+    margin-top: 35px;
+    margin-bottom: 40px;
+    margin-right: 60px;
+}
+@media (max-width: 768px) {
+    .fDucation .info h4{
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 55px;
+        margin-right: 10px;
+    }
+    .fDucation .info p{
+        margin-top: 20px;
+    }
+    .fDucation img{
+        display: block;
+        width: 30px;
+        height: 30px;
+        margin: 10px;
+        margin-top: 13px;
+        margin-bottom: 45px;
+    }
+}
+.flex-container .WExp{
+    max-width: 50%;
+}
+.WExp{
+    margin-right: 10px;
+}
+.WExp img{
+    display: block;
+    width: 30%;
+    height: 30%;
+    margin: 10px;
+    margin-top: 15px;
+    margin-bottom: 85px;
+}
+.WExp h3{
+    background: #dcdcdc;
+}
+.WExp .info{
+    display: block;
+    margin-right: 10px;
+}
+.WExp .info div{
+    display: flex;
+}
+.WExp .info h4{
+    width: 100%;
+    margin: 0;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+@media (max-width: 768px) {
+    .flex-container .WExp{
+        max-width: 100%;
+    }
+    .WExp .info h4{
+        margin: 0;
+        margin-top: 23px;
+        font-size: 12px;
+        width: 100%;
+    }
+    .WExp img{
+        display: block;
+        width: 150px;
+        height: 30px;
+        margin: 10px;
+        margin-top: 15px;
+    }
+    .WExp .info p{
+        font-size: 14px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+}
+.skills{
+    margin-top: 0;
+}
+.skills h3{
+    background: #dcdcdc;
+}
+.skills .info{
+    display: flex;
+}
+.skills .info h4{
+    margin: 0;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+.skills .info img{
+    display: block;
+    margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+    .skills .info h4{
+        margin: 0;
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+}
+footer{
+    display: flex;
+    width: 100%;
+    padding: 80px 0 100px 80px;
+}
+footer div{
+    display: flex;
+    width: 33.33%;
+    margin-left: 20px;
+}
+footer div img{
+    width: 20px;
+    height: 20px;
+}
+footer div h4{
+    margin: 0;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+@media (max-width: 768px) {
+    footer{
+        display: flex;
+        width: 100%;
+        padding: 30px 0 100px 0;
+    }
+    footer div{
+        display: flex;
+        width: 100%;
+        margin: 0;
+        margin-left: 0;
+    }
+    footer div img{
+        width: 15px;
+        height: 20px;
+    }
+    footer div h4{
+        margin: 0;
+        margin-left: 2px;
+        margin-top: 15px;
+        font-size: 11px;
+    }
+}
